@@ -1,0 +1,28 @@
+PODS:
+  - FFPopup (1.1.5)
+  - ProgressHUD (14.1.1)
+  - SwiftyButton (0.8.2)
+  - TweenKit (1.0.3)
+
+DEPENDENCIES:
+  - FFPopup
+  - ProgressHUD
+  - SwiftyButton
+  - TweenKit
+
+SPEC REPOS:
+  trunk:
+    - FFPopup
+    - ProgressHUD
+    - SwiftyButton
+    - TweenKit
+
+SPEC CHECKSUMS:
+  FFPopup: a208dcee8db3e54ec4a88fcd6481f6f5d85b7a83
+  ProgressHUD: abb9136ae23c85204236828562cb9a8ec98efb44
+  SwiftyButton: 5b0ef314e9cf61cf8a83e456ddd1ea1f53f30598
+  TweenKit: 7f32dbdda44609be0cfb3fe853af9562cd1e3564
+
+PODFILE CHECKSUM: ce51d2e3a7ecaa6552ee3d54dddb358b6bb8f56c
+
+COCOAPODS: 1.15.2

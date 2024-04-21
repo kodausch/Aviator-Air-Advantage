@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31FA7C3E4841F1F3C422A93A /* Pods_Aviator_Air_Advantage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B864C8EF68BB2CE73CA1E4CE /* Pods_Aviator_Air_Advantage.framework */; };
+		A41A37AA2BCAE35F00A0F55E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41A37A92BCAE35F00A0F55E /* AppDelegate.swift */; };
+		A41A37AC2BCAE35F00A0F55E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41A37AB2BCAE35F00A0F55E /* SceneDelegate.swift */; };
+		A41A37AE2BCAE35F00A0F55E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41A37AD2BCAE35F00A0F55E /* MainViewController.swift */; };
+		A41A37B12BCAE35F00A0F55E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A41A37B02BCAE35F00A0F55E /* Base */; };
+		A41A37B32BCAE36100A0F55E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A41A37B22BCAE36100A0F55E /* Assets.xcassets */; };
+		A41A37B62BCAE36100A0F55E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A41A37B52BCAE36100A0F55E /* Base */; };
+		A41A37BF2BCAE40800A0F55E /* PlaneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41A37BE2BCAE40800A0F55E /* PlaneView.swift */; };
+		A41A37C22BCAE56900A0F55E /* DrawPlaneLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41A37C12BCAE56900A0F55E /* DrawPlaneLine.swift */; };
+		A41A37C42BCAEDB800A0F55E /* StarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41A37C32BCAEDB800A0F55E /* StarsView.swift */; };
+		A41A37C72BCB314600A0F55E /* ImageExplosion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41A37C62BCB314600A0F55E /* ImageExplosion.swift */; };
+		A41A37C92BCB316700A0F55E /* explosion.gif in Resources */ = {isa = PBXBuildFile; fileRef = A41A37C82BCB316700A0F55E /* explosion.gif */; };
+		A41A37CC2BCBED3400A0F55E /* TutorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41A37CB2BCBED3400A0F55E /* TutorView.swift */; };
+		A41A37D12BCBED5600A0F55E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41A37CE2BCBED5600A0F55E /* DataManager.swift */; };
+		A41A37D22BCBED5600A0F55E /* DefaultsManagerableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41A37CF2BCBED5600A0F55E /* DefaultsManagerableProtocol.swift */; };
+		A41A37D92BCBED6500A0F55E /* ButtonPrettyTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41A37D82BCBED6500A0F55E /* ButtonPrettyTitle.swift */; };
+		A41A37DD2BCBED6E00A0F55E /* BalanceUniqNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41A37DC2BCBED6E00A0F55E /* BalanceUniqNotification.swift */; };
+		A41A37DF2BCBED7400A0F55E /* SetImageAsViewBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41A37DE2BCBED7400A0F55E /* SetImageAsViewBackground.swift */; };
+		A41A37E12BCBED7900A0F55E /* AddBlurForView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41A37E02BCBED7900A0F55E /* AddBlurForView.swift */; };
+		A41A37E32BCBED8C00A0F55E /* PopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41A37E22BCBED8C00A0F55E /* PopUp.swift */; };
+		A41A37E72BCC22BC00A0F55E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41A37E62BCC22BC00A0F55E /* Constants.swift */; };
+		A41A37ED2BCC2CB200A0F55E /* BaseLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41A37EC2BCC2CB100A0F55E /* BaseLabel.swift */; };
+		A41A37EF2BCC2DBE00A0F55E /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41A37EE2BCC2DBE00A0F55E /* BaseButton.swift */; };
+		A41A37F12BCC2EF900A0F55E /* StackArrangedSVs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41A37F02BCC2EF900A0F55E /* StackArrangedSVs.swift */; };
+		A41A37F32BCC2FF900A0F55E /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41A37F22BCC2FF900A0F55E /* SoundPlayer.swift */; };
+		A41A37F52BCC318400A0F55E /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41A37F42BCC318400A0F55E /* Sounds.swift */; };
+		A41A37F72BCC3BC900A0F55E /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41A37F62BCC3BC900A0F55E /* MenuViewController.swift */; };
+		A41A37F92BCC4D5F00A0F55E /* pick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A41A37F82BCC4D5F00A0F55E /* pick.mp3 */; };
+		A41A37FB2BCC4DB100A0F55E /* bg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A41A37FA2BCC4DB100A0F55E /* bg.mp3 */; };
+		A41A37FD2BCC4EFB00A0F55E /* ShowCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41A37FC2BCC4EFB00A0F55E /* ShowCharacter.swift */; };
+		A41A38012BCC8C3E00A0F55E /* LalAlendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41A38002BCC8C3E00A0F55E /* LalAlendViewController.swift */; };
+		A45BC05A2BCFB6F700702084 /* PlaneVPPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45BC0592BCFB6F700702084 /* PlaneVPPView.swift */; };
+		A45BC05C2BCFBBE300702084 /* PlaneVPPProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45BC05B2BCFBBE300702084 /* PlaneVPPProtocol.swift */; };
+		A45BC05E2BCFC5BA00702084 /* MiniBetGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45BC05D2BCFC5BA00702084 /* MiniBetGameViewController.swift */; };
+		A45BC0682BD1C1BF00702084 /* BulletProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45BC0672BD1C1BF00702084 /* BulletProvider.swift */; };
+		A45BC06A2BD1C1DE00702084 /* BulletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45BC0692BD1C1DE00702084 /* BulletView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		68335B3887120833AD352631 /* Pods-Aviator Air Advantage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aviator Air Advantage.debug.xcconfig"; path = "Target Support Files/Pods-Aviator Air Advantage/Pods-Aviator Air Advantage.debug.xcconfig"; sourceTree = "<group>"; };
+		A41A37A62BCAE35F00A0F55E /* Aviator Air Advantage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aviator Air Advantage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A41A37A92BCAE35F00A0F55E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A41A37AB2BCAE35F00A0F55E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A41A37AD2BCAE35F00A0F55E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A41A37B02BCAE35F00A0F55E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A41A37B22BCAE36100A0F55E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A41A37B52BCAE36100A0F55E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A41A37B72BCAE36100A0F55E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A41A37BE2BCAE40800A0F55E /* PlaneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneView.swift; sourceTree = "<group>"; };
+		A41A37C12BCAE56900A0F55E /* DrawPlaneLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawPlaneLine.swift; sourceTree = "<group>"; };
+		A41A37C32BCAEDB800A0F55E /* StarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarsView.swift; sourceTree = "<group>"; };
+		A41A37C62BCB314600A0F55E /* ImageExplosion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExplosion.swift; sourceTree = "<group>"; };
+		A41A37C82BCB316700A0F55E /* explosion.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = explosion.gif; sourceTree = "<group>"; };
+		A41A37CB2BCBED3400A0F55E /* TutorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorView.swift; sourceTree = "<group>"; };
+		A41A37CE2BCBED5600A0F55E /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		A41A37CF2BCBED5600A0F55E /* DefaultsManagerableProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultsManagerableProtocol.swift; sourceTree = "<group>"; };
+		A41A37D82BCBED6500A0F55E /* ButtonPrettyTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonPrettyTitle.swift; sourceTree = "<group>"; };
+		A41A37DC2BCBED6E00A0F55E /* BalanceUniqNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceUniqNotification.swift; sourceTree = "<group>"; };
+		A41A37DE2BCBED7400A0F55E /* SetImageAsViewBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetImageAsViewBackground.swift; sourceTree = "<group>"; };
+		A41A37E02BCBED7900A0F55E /* AddBlurForView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBlurForView.swift; sourceTree = "<group>"; };
+		A41A37E22BCBED8C00A0F55E /* PopUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUp.swift; sourceTree = "<group>"; };
+		A41A37E62BCC22BC00A0F55E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A41A37EC2BCC2CB100A0F55E /* BaseLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLabel.swift; sourceTree = "<group>"; };
+		A41A37EE2BCC2DBE00A0F55E /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
+		A41A37F02BCC2EF900A0F55E /* StackArrangedSVs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackArrangedSVs.swift; sourceTree = "<group>"; };
+		A41A37F22BCC2FF900A0F55E /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		A41A37F42BCC318400A0F55E /* Sounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sounds.swift; sourceTree = "<group>"; };
+		A41A37F62BCC3BC900A0F55E /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		A41A37F82BCC4D5F00A0F55E /* pick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pick.mp3; sourceTree = "<group>"; };
+		A41A37FA2BCC4DB100A0F55E /* bg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bg.mp3; sourceTree = "<group>"; };
+		A41A37FC2BCC4EFB00A0F55E /* ShowCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCharacter.swift; sourceTree = "<group>"; };
+		A41A38002BCC8C3E00A0F55E /* LalAlendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LalAlendViewController.swift; sourceTree = "<group>"; };
+		A45BC0592BCFB6F700702084 /* PlaneVPPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneVPPView.swift; sourceTree = "<group>"; };
+		A45BC05B2BCFBBE300702084 /* PlaneVPPProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneVPPProtocol.swift; sourceTree = "<group>"; };
+		A45BC05D2BCFC5BA00702084 /* MiniBetGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniBetGameViewController.swift; sourceTree = "<group>"; };
+		A45BC0672BD1C1BF00702084 /* BulletProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulletProvider.swift; sourceTree = "<group>"; };
+		A45BC0692BD1C1DE00702084 /* BulletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulletView.swift; sourceTree = "<group>"; };
+		B864C8EF68BB2CE73CA1E4CE /* Pods_Aviator_Air_Advantage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aviator_Air_Advantage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C22FCE7DB9B6C5688AF1D601 /* Pods-Aviator Air Advantage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aviator Air Advantage.release.xcconfig"; path = "Target Support Files/Pods-Aviator Air Advantage/Pods-Aviator Air Advantage.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A41A37A32BCAE35F00A0F55E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FA7C3E4841F1F3C422A93A /* Pods_Aviator_Air_Advantage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BF1096D79D673DF311367B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68335B3887120833AD352631 /* Pods-Aviator Air Advantage.debug.xcconfig */,
+				C22FCE7DB9B6C5688AF1D601 /* Pods-Aviator Air Advantage.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A41A379D2BCAE35F00A0F55E = {
+			isa = PBXGroup;
+			children = (
+				A41A37A82BCAE35F00A0F55E /* Aviator Air Advantage */,
+				A41A37A72BCAE35F00A0F55E /* Products */,
+				0BF1096D79D673DF311367B0 /* Pods */,
+				BC5E5409F73753142627717F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A41A37A72BCAE35F00A0F55E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A41A37A62BCAE35F00A0F55E /* Aviator Air Advantage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A41A37A82BCAE35F00A0F55E /* Aviator Air Advantage */ = {
+			isa = PBXGroup;
+			children = (
+				A41A37A92BCAE35F00A0F55E /* AppDelegate.swift */,
+				A41A37AB2BCAE35F00A0F55E /* SceneDelegate.swift */,
+				A41A37C82BCB316700A0F55E /* explosion.gif */,
+				A41A37EA2BCC28DF00A0F55E /* Controllers */,
+				A41A37C52BCB312000A0F55E /* Extensions */,
+				A41A37CD2BCBED3F00A0F55E /* Models */,
+				A41A37C02BCAE55B00A0F55E /* Helpers */,
+				A41A37BD2BCAE3FE00A0F55E /* Views */,
+				A41A37AF2BCAE35F00A0F55E /* Main.storyboard */,
+				A41A37B22BCAE36100A0F55E /* Assets.xcassets */,
+				A41A37FA2BCC4DB100A0F55E /* bg.mp3 */,
+				A41A37F82BCC4D5F00A0F55E /* pick.mp3 */,
+				A41A37B42BCAE36100A0F55E /* LaunchScreen.storyboard */,
+				A41A37B72BCAE36100A0F55E /* Info.plist */,
+			);
+			path = "Aviator Air Advantage";
+			sourceTree = "<group>";
+		};
+		A41A37BD2BCAE3FE00A0F55E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A41A37EB2BCC2C2B00A0F55E /* BaseEntities */,
+				A41A37E22BCBED8C00A0F55E /* PopUp.swift */,
+				A41A37CB2BCBED3400A0F55E /* TutorView.swift */,
+				A41A37BE2BCAE40800A0F55E /* PlaneView.swift */,
+				A41A37C32BCAEDB800A0F55E /* StarsView.swift */,
+				A45BC0592BCFB6F700702084 /* PlaneVPPView.swift */,
+				A45BC05B2BCFBBE300702084 /* PlaneVPPProtocol.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A41A37C02BCAE55B00A0F55E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A45BC0662BD1C1AB00702084 /* BulletProvider */,
+				A41A37D02BCBED5600A0F55E /* UserDefaults */,
+				A41A37C12BCAE56900A0F55E /* DrawPlaneLine.swift */,
+				A41A37F22BCC2FF900A0F55E /* SoundPlayer.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A41A37C52BCB312000A0F55E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A41A37E02BCBED7900A0F55E /* AddBlurForView.swift */,
+				A41A37DE2BCBED7400A0F55E /* SetImageAsViewBackground.swift */,
+				A41A37DC2BCBED6E00A0F55E /* BalanceUniqNotification.swift */,
+				A41A37D82BCBED6500A0F55E /* ButtonPrettyTitle.swift */,
+				A41A37C62BCB314600A0F55E /* ImageExplosion.swift */,
+				A41A37F02BCC2EF900A0F55E /* StackArrangedSVs.swift */,
+				A41A37FC2BCC4EFB00A0F55E /* ShowCharacter.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A41A37CD2BCBED3F00A0F55E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A41A37E62BCC22BC00A0F55E /* Constants.swift */,
+				A41A37F42BCC318400A0F55E /* Sounds.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A41A37D02BCBED5600A0F55E /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				A41A37CE2BCBED5600A0F55E /* DataManager.swift */,
+				A41A37CF2BCBED5600A0F55E /* DefaultsManagerableProtocol.swift */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
+		A41A37EA2BCC28DF00A0F55E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A41A37AD2BCAE35F00A0F55E /* MainViewController.swift */,
+				A41A37F62BCC3BC900A0F55E /* MenuViewController.swift */,
+				A41A38002BCC8C3E00A0F55E /* LalAlendViewController.swift */,
+				A45BC05D2BCFC5BA00702084 /* MiniBetGameViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A41A37EB2BCC2C2B00A0F55E /* BaseEntities */ = {
+			isa = PBXGroup;
+			children = (
+				A41A37EC2BCC2CB100A0F55E /* BaseLabel.swift */,
+				A41A37EE2BCC2DBE00A0F55E /* BaseButton.swift */,
+			);
+			path = BaseEntities;
+			sourceTree = "<group>";
+		};
+		A45BC0662BD1C1AB00702084 /* BulletProvider */ = {
+			isa = PBXGroup;
+			children = (
+				A45BC0672BD1C1BF00702084 /* BulletProvider.swift */,
+				A45BC0692BD1C1DE00702084 /* BulletView.swift */,
+			);
+			path = BulletProvider;
+			sourceTree = "<group>";
+		};
+		BC5E5409F73753142627717F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B864C8EF68BB2CE73CA1E4CE /* Pods_Aviator_Air_Advantage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A41A37A52BCAE35F00A0F55E /* Aviator Air Advantage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A41A37BA2BCAE36100A0F55E /* Build configuration list for PBXNativeTarget "Aviator Air Advantage" */;
+			buildPhases = (
+				9DA1FDCF9190CB2E93A1F26E /* [CP] Check Pods Manifest.lock */,
+				A41A37A22BCAE35F00A0F55E /* Sources */,
+				A41A37A32BCAE35F00A0F55E /* Frameworks */,
+				A41A37A42BCAE35F00A0F55E /* Resources */,
+				2E052CD46AE565ACEA9CAACF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Aviator Air Advantage";
+			productName = "Aviator Air Advantage";
+			productReference = A41A37A62BCAE35F00A0F55E /* Aviator Air Advantage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A41A379E2BCAE35F00A0F55E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					A41A37A52BCAE35F00A0F55E = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = A41A37A12BCAE35F00A0F55E /* Build configuration list for PBXProject "Aviator Air Advantage" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A41A379D2BCAE35F00A0F55E;
+			productRefGroup = A41A37A72BCAE35F00A0F55E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A41A37A52BCAE35F00A0F55E /* Aviator Air Advantage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A41A37A42BCAE35F00A0F55E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A41A37B32BCAE36100A0F55E /* Assets.xcassets in Resources */,
+				A41A37B62BCAE36100A0F55E /* Base in Resources */,
+				A41A37C92BCB316700A0F55E /* explosion.gif in Resources */,
+				A41A37F92BCC4D5F00A0F55E /* pick.mp3 in Resources */,
+				A41A37FB2BCC4DB100A0F55E /* bg.mp3 in Resources */,
+				A41A37B12BCAE35F00A0F55E /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E052CD46AE565ACEA9CAACF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Aviator Air Advantage/Pods-Aviator Air Advantage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Aviator Air Advantage/Pods-Aviator Air Advantage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Aviator Air Advantage/Pods-Aviator Air Advantage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DA1FDCF9190CB2E93A1F26E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aviator Air Advantage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A41A37A22BCAE35F00A0F55E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A41A37F32BCC2FF900A0F55E /* SoundPlayer.swift in Sources */,
+				A41A37C72BCB314600A0F55E /* ImageExplosion.swift in Sources */,
+				A45BC0682BD1C1BF00702084 /* BulletProvider.swift in Sources */,
+				A41A37D22BCBED5600A0F55E /* DefaultsManagerableProtocol.swift in Sources */,
+				A41A37AE2BCAE35F00A0F55E /* MainViewController.swift in Sources */,
+				A41A37BF2BCAE40800A0F55E /* PlaneView.swift in Sources */,
+				A41A37CC2BCBED3400A0F55E /* TutorView.swift in Sources */,
+				A41A37C22BCAE56900A0F55E /* DrawPlaneLine.swift in Sources */,
+				A41A37DF2BCBED7400A0F55E /* SetImageAsViewBackground.swift in Sources */,
+				A41A37EF2BCC2DBE00A0F55E /* BaseButton.swift in Sources */,
+				A41A37AA2BCAE35F00A0F55E /* AppDelegate.swift in Sources */,
+				A41A37C42BCAEDB800A0F55E /* StarsView.swift in Sources */,
+				A41A37E32BCBED8C00A0F55E /* PopUp.swift in Sources */,
+				A45BC06A2BD1C1DE00702084 /* BulletView.swift in Sources */,
+				A41A37DD2BCBED6E00A0F55E /* BalanceUniqNotification.swift in Sources */,
+				A41A37D92BCBED6500A0F55E /* ButtonPrettyTitle.swift in Sources */,
+				A41A37F52BCC318400A0F55E /* Sounds.swift in Sources */,
+				A41A37D12BCBED5600A0F55E /* DataManager.swift in Sources */,
+				A41A37E72BCC22BC00A0F55E /* Constants.swift in Sources */,
+				A41A37FD2BCC4EFB00A0F55E /* ShowCharacter.swift in Sources */,
+				A41A37AC2BCAE35F00A0F55E /* SceneDelegate.swift in Sources */,
+				A41A37F72BCC3BC900A0F55E /* MenuViewController.swift in Sources */,
+				A41A38012BCC8C3E00A0F55E /* LalAlendViewController.swift in Sources */,
+				A45BC05C2BCFBBE300702084 /* PlaneVPPProtocol.swift in Sources */,
+				A41A37ED2BCC2CB200A0F55E /* BaseLabel.swift in Sources */,
+				A45BC05E2BCFC5BA00702084 /* MiniBetGameViewController.swift in Sources */,
+				A45BC05A2BCFB6F700702084 /* PlaneVPPView.swift in Sources */,
+				A41A37E12BCBED7900A0F55E /* AddBlurForView.swift in Sources */,
+				A41A37F12BCC2EF900A0F55E /* StackArrangedSVs.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A41A37AF2BCAE35F00A0F55E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A41A37B02BCAE35F00A0F55E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A41A37B42BCAE36100A0F55E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A41A37B52BCAE36100A0F55E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A41A37B82BCAE36100A0F55E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A41A37B92BCAE36100A0F55E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A41A37BB2BCAE36100A0F55E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68335B3887120833AD352631 /* Pods-Aviator Air Advantage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 83A3HB7D55;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Aviator Air Advantage/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aviatorairad.vantage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A41A37BC2BCAE36100A0F55E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C22FCE7DB9B6C5688AF1D601 /* Pods-Aviator Air Advantage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 83A3HB7D55;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Aviator Air Advantage/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aviatorairad.vantage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A41A37A12BCAE35F00A0F55E /* Build configuration list for PBXProject "Aviator Air Advantage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A41A37B82BCAE36100A0F55E /* Debug */,
+				A41A37B92BCAE36100A0F55E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A41A37BA2BCAE36100A0F55E /* Build configuration list for PBXNativeTarget "Aviator Air Advantage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A41A37BB2BCAE36100A0F55E /* Debug */,
+				A41A37BC2BCAE36100A0F55E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A41A379E2BCAE35F00A0F55E /* Project object */;
+}
